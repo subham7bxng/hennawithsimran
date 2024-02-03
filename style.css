@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* laptop */
+
+@media only screen and (min-width: 768px) {
+    .simmy {
+        height: 10rem;
+        width: 10rem;
+        display: block;
+        margin: auto;
+
+    }
+
+    img {
+        width: 70%;
+        height: 55vh;
+        display: block;
+        margin: auto;
+    }
+
+    .slide-wrapper .image-list .image-item {
+        width: 325px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    #contact {
+        border: 2px solid black;
+        width: 30%;
+        height: 10%;
+        display: block;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 3%;
+        opacity: 1;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    .simmy {
+        height: 15vh;
+        width: 15vh;
+        display: block;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+        height: 28vh;
+        display: block;
+        margin: auto;
+    }
+
+    .slide-wrapper .image-list .image-item {
+        width: 125px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    #contact {
+        border: 2px solid black;
+        width: 80%;
+        height: 50%;
+        display: block;
+        margin: 50% auto;
+        padding: 20px;
+        border-radius: 3%;
+    }
+
+    body {
+        background-image: url(img/download.jpg);
+        background-repeat: repeat-y;
+        background-size: 100% 100%;
+    }
+}
+
+.btn {
+    display: block;
+    margin: auto;
+}
+
+#sample {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(167, 132, 88);
+}
+
+.cont {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+
+.slide-wrapper .image-list {
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#About {
+    background-color: #603601;
+    width: 100%;
+    height: 50px;
+}
+
+.niche {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin: auto 30px;
+    gap: 40px;
+    padding: 10px;
+}
+
+.paddy {
+    padding: 15px;
+}
+
+.row {
+    padding: 15px;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #603601;
+}
+
+.endy {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Single Day', cursive;
+}
+
+h6 {
+    color: aliceblue;
+    font-size: small;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #361500;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
+.navbar-item {
+    font-family: 'Satisfy', cursive;
+    font-style: italic;
+}
+
+.nav-link {
+    font-family: 'Satisfy', cursive;
+}
+
+hr {
+    border-top: 1px dotted red;
+}
+
+.btn {
+    font-family: 'Roboto Slab', serif;
+}
